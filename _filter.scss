@@ -1,6 +1,4 @@
 /*ФИЛЬТР МОДАЛЬНОЕ ОКНО*/
-
-
 .delivery {
     display: flex;
     flex-direction: column;
@@ -8,8 +6,6 @@
     height: 177px;
     border: none;
 }
-
-
 .delivery__box {
     display: flex;
     flex-direction: column;
@@ -17,7 +13,6 @@
     row-gap: 14px;
 
 }
-
 .delivery__subtitle {
     color: $color-text2;
     font-family: Montserrat;
@@ -51,8 +46,6 @@
 .delivery__item:hover {
     color: rgb(25, 128, 168);
 }
-
-
 input[type="radio"] {
     display: none;
 }
@@ -62,7 +55,6 @@ input[type="radio"]+label {
     cursor: pointer;
 
 }
-
 input[type="radio"]+label::before {
     content: "";
     position: absolute;
@@ -79,7 +71,6 @@ input[type="radio"]+label::before {
     stroke: rgb(0, 0, 0);
 
 }
-
 input[type="radio"]:checked+label::before {
     content: "";
     position: absolute;

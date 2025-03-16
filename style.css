@@ -451,7 +451,6 @@
   padding-left: 23px;
 }
 
-/*Всплывающий список в CATALOG*/
 .for {
   display: grid;
   gap: 32px;
@@ -746,7 +745,6 @@
   z-index: 1;
 }
 
-/*Модально окно фильтрация*/
 /*ФИЛЬТР МОДАЛЬНОЕ ОКНО*/
 .delivery {
   display: flex;
@@ -1184,9 +1182,6 @@ a {
   transition-delay: 0.2s;
 }
 
-/*Анимация link*/
-/*TOP!!!!!!*/
-/*START PAGE BACKGROUND*/
 .top__content__text {
   color: #ffffff;
   font-family: Montserrat;
@@ -1219,7 +1214,6 @@ a {
   text-decoration-line: underline;
 }
 
-/* PRODUCT  СПЕЦИАЛЬНЫЕ ПРЕДЛОЖЕНИЯ ТЕКСТ */
 .special__title {
   padding-top: 64px;
   padding-bottom: 32px;

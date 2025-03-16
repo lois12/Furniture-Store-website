@@ -6,10 +6,7 @@
         :hover{
             cursor: pointer;
         }
-       
         }
-    
-    
     &__content{
         position: absolute;
         width: 573px;
@@ -19,14 +16,10 @@
         background-color: white;
         box-shadow: 0px 4px 67px -12px rgba(0, 0, 0, 0.32);
         z-index: 1;
-
-    
     }
     &__dt>summary::marker{
         display: none;
         content:"";
-
-        
     }
     &__title{
         color: rgb(255, 255, 255);
@@ -34,7 +27,6 @@
         font-size: 16px;
         font-weight: 600;
         line-height: 20px;
-
     }
     &__content{
         padding: 48px 40px 48px 40px;
@@ -57,7 +49,6 @@
         width: 207px;
         height: 40px
     }
-    
     &__btn-group{
         justify-content: space-between;
     }

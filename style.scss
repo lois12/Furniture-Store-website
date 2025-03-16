@@ -6,10 +6,7 @@
 @import 'color';
 @import 'footer';
 @import 'cart';
-/*Модально окно фильтрация*/
 @import 'filter';
-
-
 * {
     margin: 0;
     padding: 0;
@@ -41,10 +38,6 @@ a {
     transition-delay: 0.2s;
 
 }
-/*Анимация link*/
-
-/*TOP!!!!!!*/
-/*START PAGE BACKGROUND*/
 .top {
     &__content__text {
         color: $color-text1;
@@ -57,8 +50,6 @@ a {
         margin-bottom: 16px;
         
     }
-
-
     &__content__title {
         color: $color-text1;
         font-size: 65px;
@@ -70,7 +61,6 @@ a {
         margin-bottom: 16px;
         max-width: 792px;
     }
-
     &__content__link {
         color: $color-text1;
         font-family: Montserrat;
@@ -82,10 +72,6 @@ a {
         text-decoration-line: underline;
     }
 }
-
-
-/* PRODUCT  СПЕЦИАЛЬНЫЕ ПРЕДЛОЖЕНИЯ ТЕКСТ */
-
 .special__title {
     padding-top: 64px;
     padding-bottom: 32px;
@@ -97,12 +83,9 @@ a {
     text-align: left;
 
 }
-
-
 .link__color {
     color: $color-text2;
 }
-
 .bottom__link {
 
     color: rgb(136, 136, 136);
