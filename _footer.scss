@@ -1,0 +1,136 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: start;
+    margin-top: 64px;
+    background-color: #f7f6f6;
+    padding-top: 32px;
+    padding-bottom: 64px;
+
+    &__navbar {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+    }
+
+    &__title {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 29px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+
+    &__menu {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        text-align: left;
+        gap: 12px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        text-decoration: none;
+    }
+
+    &__link {
+
+        color: rgb(136, 136, 136);
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    &__contact-bar {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    &__ikons {
+        display: flex;
+        gap: 10px;
+    }
+
+    &__ikons-animation-dzen:hover{
+        content: url(IMG/SVG/dzen\ black.svg);
+        transform: scale(105%);
+        transition-delay: 0.3s;
+        cursor: pointer;
+    }
+    &__ikons-animation-telegram:hover{
+        content: url(IMG/SVG/telegram__black.svg);
+        transform: scale(105%);
+        transition-delay: 0.3s;
+        cursor: pointer;
+    }
+    &__ikons-animation-vk:hover{
+        content: url(IMG/SVG/vk__black.svg);
+        transform: scale(105%);
+        transition-delay: 0.3s;
+        cursor: pointer;
+    }
+
+
+
+    &__form {
+        width: 260px;
+        height: 40px;
+        box-sizing: border-box;
+        border: 1px solid rgb(196, 196, 196);
+        border-radius: 16px;
+        background: $color-text1;
+        padding-left: 24px;
+        padding-right: 24px;
+        font: inherit;
+        &::placeholder {
+            color: rgb(196, 196, 196);
+    
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 15px;
+            letter-spacing: 0%;
+            text-align: left;}
+
+            
+        &_position {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+        &-btn {
+        color: $color-text2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font: inherit;
+        height: 40px;
+        width: 260px;
+        border-radius: 16px;
+        background: rgba(222, 215, 215, 0.41);
+        cursor: pointer;
+        border: none;
+        font-size: 12px;
+    }
+ }
+
+    
+
+
+    &__action {
+        color: rgb(0, 0, 0);
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+
+}

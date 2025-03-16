@@ -1,0 +1,133 @@
+.product {
+    row-gap: 56px;
+    column-gap: 32px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &-card__discount {
+        color: rgb(136, 136, 136);
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 29px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-decoration-line: line-through;
+    }
+
+    /* ЗАЧЕРКИВАНИЕ ТЕКСТА В PRODUCT*/
+
+    &-card__price_position {
+        display: flex;
+        gap: 33px;
+        flex-wrap: wrap;
+    }
+
+    &__box {
+        padding-bottom: 32px;
+    }
+
+
+
+    &-card {
+        width: 379px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    &-card__size {
+        width: 378px;
+    }
+
+    &-card__img {
+        width: 100%;
+        transition: 2.3s;
+
+    }
+
+    &-card__img:hover {
+        transform: scale(110%);
+        transition-delay: 0.3s;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+
+
+    &-card__title {
+        Font-size: 24px;
+        font-weight: 500;
+        line-height: 29px;
+        letter-spacing: 0%;
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    &-card__description {
+        color: rgb(136, 136, 136);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0%;
+        text-align: left;
+        padding-top: 9px;
+        padding-bottom: 12px;
+    }
+
+    &-card__price {
+        color: rgb(5, 5, 5);
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 29px;
+        letter-spacing: 0%;
+        text-align: left;
+        padding-bottom: 12px;
+    }
+
+    &-card__anime {
+        position: relative;
+
+    }
+
+    &-card__ikon_right {
+        display: none;
+        padding-left: 11px;
+
+    }
+
+    &-card__ikon_left {
+        display: none;
+
+    }
+
+    &__img__icons_position {
+        position: absolute;
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        padding-left: 302px;
+        padding-top: 10px;
+        padding-right: 10px;
+
+    }
+
+    &-card__anime:hover .product-card__ikon_right {
+        transform: scale(110%);
+
+        display: inline;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    &-card__anime:hover .product-card__ikon_left {
+        display: inline;
+        cursor: pointer;
+        transform: scale(110%);
+        z-index: 1;
+    }
+
+
+
+}

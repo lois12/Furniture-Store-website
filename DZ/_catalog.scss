@@ -1,0 +1,131 @@
+/*CATALOG BACKGROUND*/
+.top__catalog {
+    height: 400px;
+    background-image: url(IMG/Catalog/BGCATALOG.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.catalog__main-title {
+    color: $color-text1;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 127px;
+    width: 292px;
+
+
+}
+
+.catalog__title {
+
+    padding-top: 64px;
+    padding-bottom: 32px;
+    color: rgb(0, 0, 0);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 59px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+
+
+
+
+.catalog__bar_flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 61px;
+    padding-bottom: 36px;
+}
+
+.catalog {
+    padding-bottom: 32px;
+}
+
+.catalog__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    column-gap: 10px;
+    color: $color-text2;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+}
+
+.catalog__nav-link {
+    color: $color-text2;
+}
+
+.catalog__nav-link:hover {
+    text-decoration: underline;
+}
+
+.catalog__btn {
+    display: flex;
+    justify-content: right;
+    column-gap: 10px;
+}
+
+/*Всплывающий список в CATALOG*/
+.select-wrapper {
+    position: relative;
+
+}
+
+.select-wrapper::after {
+    content: url(IMG/SVG/Polygon1.svg);
+    position: absolute;
+    pointer-events: none;
+    width: 24px;
+    height: 11px;
+    left: 155px;
+    top: 10px;
+
+
+}
+
+.select-box1 {
+    appearance: none;
+    width: 182px;
+    height: 40px;
+    border-color: $color-text2;
+    box-sizing: border-box;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    padding-left: 23px;
+}
+
+.select-box2 {
+    appearance: none;
+    width: 182px;
+    height: 40px;
+    border-color: $color-text2;
+    box-sizing: border-box;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-left: 23px;
+}
+
+/*Всплывающий список в CATALOG*/
+
+
+
+
+

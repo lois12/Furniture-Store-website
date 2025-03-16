@@ -1,0 +1,305 @@
+.basket {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 29px;
+    padding-top: 64px;
+
+    &__top_bg {
+        height: 400px;
+        background-image: url(IMG/basket/basketBG__TOP.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &__main-title {
+        color: $color-text1;
+        font-family: Montserrat;
+        font-size: 64px;
+        font-weight: 600;
+        line-height: 70px;
+        letter-spacing: 0%;
+        text-align: left;
+        padding-top: 127px;
+    }
+
+
+
+    &__product-quantity {
+        padding-bottom: 14px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+
+    }
+
+    &product-quantity__name_left {
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: left;
+        padding-left: 3px;
+    }
+
+    &-product-quantity__name_right {
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: left;
+        display: flex;
+        flex-direction: row;
+        padding-right: 27px;
+        padding-bottom: 14px;
+    }
+
+    &-card_flex {
+        display: flex;
+        gap: 32px;
+    }
+
+    &-card_top {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 31px;
+        padding-bottom: 32px;
+        border: none;
+        border-bottom: 0.5px solid rgb(202, 205, 216);
+        border-top: 0.5px solid rgb(202, 205, 216);
+        padding-top: 25px;
+
+    }
+
+    &-card_bottom {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 31px;
+        padding-top: 32px;
+    }
+
+    &__card__content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &-card-img {
+        width: 173px;
+        height: 173px;
+    }
+
+    &-item__title {
+        color: rgb(0, 0, 0);
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 500;
+        padding-bottom: 15px;
+    }
+
+    &-item__description {
+        color: rgb(136, 136, 136);
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0%;
+        text-align: left;
+        padding-bottom: 16px;
+    }
+
+    &-item-price {
+        color: rgb(5, 5, 5);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0%;
+
+    }
+
+    &-item-link {
+        display: flex;
+        column-gap: 30px;
+        padding-top: 16px;
+    }
+
+    &-item-link_style {
+        color: rgb(0, 0, 0);
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 210%;
+        letter-spacing: 0px;
+        text-align: center;
+        text-decoration-line: underline;
+
+    }
+
+    &-input_qantity-product {
+
+        width: 71px;
+        height: 51px;
+        border-radius: 6px;
+        border-color: transparent;
+        background: rgb(247, 246, 246);
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 210%;
+
+    }
+
+    &-input {
+        width: 71px;
+        height: 51px;
+        border-radius: 6px;
+        background: rgb(247, 246, 246);
+        position: absolute;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 210%;
+        letter-spacing: 0px;
+    }
+
+    &-form__label {
+        display: flex;
+        justify-content: center;
+    }
+
+    &-form__label_style {
+        color: rgb(0, 0, 0);
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29px;
+        letter-spacing: 0px;
+        text-align: center;
+        padding-top: 42px;
+    }
+
+    &-form {
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+        background: rgb(247, 246, 246);
+        row-gap: 44px;
+        width: 379px;
+    }
+
+    &-form__input {
+        border: none;
+        border-bottom: 1px solid rgb(202, 205, 216);
+        background: rgb(247, 246, 246);
+
+        padding-right: 64px;
+
+    }
+
+
+    &-form__input_position {
+        padding-left: 27px;
+        padding-right: 64px;
+        display: flex;
+        flex-direction: column;
+        gap: 44px;
+
+    }
+
+    &-form__input::placeholder {
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0px;
+    }
+
+    &-form_bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 18px;
+    }
+
+    &-form__price {
+        color: rgb(0, 0, 0);
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 29px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+
+    &-form__btn__order {
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        font-weight: 400;
+        font-family: inherit;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: center;
+        box-sizing: border-box;
+        border: 1px solid rgb(4, 4, 4);
+        border-radius: 20px;
+        width: 290px;
+        height: 41px;
+        cursor: pointer;
+        stroke: rgb(4, 4, 4);
+        background-color: transparent;
+
+    }
+
+    &-form-group__btn_bottom {
+        display: flex;
+        column-gap: 7px;
+        padding-top: 50px;
+
+    }
+
+    &-form-group__btn_right {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        font-size: 14 px;
+        font-weight: 400;
+        font-family: inherit;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: center;
+        box-sizing: border-box;
+        border: 1px solid rgb(4, 4, 4);
+        border-radius: 20px;
+        width: 200px;
+        height: 37px;
+        cursor: pointer;
+
+    }
+
+    &-form-group__btn_left {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        font-size: 14px;
+        font-weight: 400;
+        font-family: inherit;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: center;
+        box-sizing: border-box;
+        border: 1px solid rgb(4, 4, 4);
+        border-radius: 20px;
+        width: 200px;
+        height: 37px;
+        cursor: pointer;
+
+    }
+
+}
+

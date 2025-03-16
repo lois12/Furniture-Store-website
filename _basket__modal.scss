@@ -1,0 +1,65 @@
+/* Модальное окно BASKET*/
+
+.basket__modal{
+    &__dt{
+        position: relative;
+        :hover{
+            cursor: pointer;
+        }
+       
+        }
+    
+    
+    &__content{
+        position: absolute;
+        width: 573px;
+        height: 480px;
+        top: 40px;
+        right: 0;
+        background-color: white;
+        box-shadow: 0px 4px 67px -12px rgba(0, 0, 0, 0.32);
+        z-index: 1;
+
+    
+    }
+    &__dt>summary::marker{
+        display: none;
+        content:"";
+
+        
+    }
+    &__title{
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+
+    }
+    &__content{
+        padding: 48px 40px 48px 40px;
+    }
+    &__img{
+        width: 144px;
+        height: 144px;
+    }
+    &-link{
+        padding-top: 56px;
+    }
+    &-price{
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 150%;
+        letter-spacing: -3%;
+        padding-right: 41px;
+    }
+    &__btn{
+        width: 207px;
+        height: 40px
+    }
+    
+    &__btn-group{
+        justify-content: space-between;
+    }
+
+}
