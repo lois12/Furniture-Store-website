@@ -4,7 +4,6 @@
     flex-wrap: wrap;
     gap: 29px;
     padding-top: 64px;
-
     &__top_bg {
         height: 400px;
         background-image: url(IMG/basket/basketBG__TOP.jpeg);
@@ -12,7 +11,6 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
-
     &__main-title {
         color: $color-text1;
         font-family: Montserrat;
@@ -23,9 +21,6 @@
         text-align: left;
         padding-top: 127px;
     }
-
-
-
     &__product-quantity {
         padding-bottom: 14px;
         display: flex;
@@ -34,7 +29,6 @@
 
 
     }
-
     &product-quantity__name_left {
         color: rgb(0, 0, 0);
         font-size: 16px;
@@ -44,7 +38,6 @@
         text-align: left;
         padding-left: 3px;
     }
-
     &-product-quantity__name_right {
         color: rgb(0, 0, 0);
         font-size: 16px;
@@ -57,12 +50,10 @@
         padding-right: 27px;
         padding-bottom: 14px;
     }
-
     &-card_flex {
         display: flex;
         gap: 32px;
     }
-
     &-card_top {
         display: flex;
         justify-content: space-between;
@@ -74,24 +65,20 @@
         padding-top: 25px;
 
     }
-
     &-card_bottom {
         display: flex;
         justify-content: space-between;
         column-gap: 31px;
         padding-top: 32px;
     }
-
     &__card__content {
         display: flex;
         flex-direction: column;
     }
-
     &-card-img {
         width: 173px;
         height: 173px;
     }
-
     &-item__title {
         color: rgb(0, 0, 0);
         font-family: Montserrat;
@@ -99,7 +86,6 @@
         font-weight: 500;
         padding-bottom: 15px;
     }
-
     &-item__description {
         color: rgb(136, 136, 136);
         font-family: Montserrat;
@@ -110,7 +96,6 @@
         text-align: left;
         padding-bottom: 16px;
     }
-
     &-item-price {
         color: rgb(5, 5, 5);
         font-family: Montserrat;
@@ -120,13 +105,11 @@
         letter-spacing: 0%;
 
     }
-
     &-item-link {
         display: flex;
         column-gap: 30px;
         padding-top: 16px;
     }
-
     &-item-link_style {
         color: rgb(0, 0, 0);
         font-family: Montserrat;
@@ -138,7 +121,6 @@
         text-decoration-line: underline;
 
     }
-
     &-input_qantity-product {
 
         width: 71px;
@@ -154,7 +136,6 @@
         line-height: 210%;
 
     }
-
     &-input {
         width: 71px;
         height: 51px;
@@ -169,12 +150,10 @@
         line-height: 210%;
         letter-spacing: 0px;
     }
-
     &-form__label {
         display: flex;
         justify-content: center;
     }
-
     &-form__label_style {
         color: rgb(0, 0, 0);
         font-size: 24px;
@@ -184,7 +163,6 @@
         text-align: center;
         padding-top: 42px;
     }
-
     &-form {
         display: flex;
         flex-direction: column;
@@ -193,7 +171,6 @@
         row-gap: 44px;
         width: 379px;
     }
-
     &-form__input {
         border: none;
         border-bottom: 1px solid rgb(202, 205, 216);
@@ -202,8 +179,6 @@
         padding-right: 64px;
 
     }
-
-
     &-form__input_position {
         padding-left: 27px;
         padding-right: 64px;
@@ -212,7 +187,6 @@
         gap: 44px;
 
     }
-
     &-form__input::placeholder {
         font-family: Montserrat;
         font-size: 14px;
@@ -220,7 +194,6 @@
         line-height: 17px;
         letter-spacing: 0px;
     }
-
     &-form_bottom {
         display: flex;
         flex-direction: column;
@@ -228,7 +201,6 @@
         align-items: center;
         row-gap: 18px;
     }
-
     &-form__price {
         color: rgb(0, 0, 0);
         font-family: Montserrat;
@@ -238,7 +210,6 @@
         letter-spacing: 0px;
         text-align: center;
     }
-
     &-form__btn__order {
         color: rgb(0, 0, 0);
         font-size: 16px;
@@ -257,14 +228,12 @@
         background-color: transparent;
 
     }
-
     &-form-group__btn_bottom {
         display: flex;
         column-gap: 7px;
         padding-top: 50px;
 
     }
-
     &-form-group__btn_right {
         background-color: transparent;
         color: rgb(0, 0, 0);
@@ -282,7 +251,6 @@
         cursor: pointer;
 
     }
-
     &-form-group__btn_left {
         background-color: transparent;
         color: rgb(0, 0, 0);
@@ -300,6 +268,5 @@
         cursor: pointer;
 
     }
-
 }
 

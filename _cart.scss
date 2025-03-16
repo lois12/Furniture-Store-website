@@ -15,28 +15,21 @@
         text-align: left;
         text-decoration-line: line-through;
     }
-
     /* ЗАЧЕРКИВАНИЕ ТЕКСТА В PRODUCT*/
-
     &-card__price_position {
         display: flex;
         gap: 33px;
         flex-wrap: wrap;
     }
-
     &__box {
         padding-bottom: 32px;
     }
-
-
-
     &-card {
         width: 379px;
         display: flex;
         flex-direction: column;
 
     }
-
     &-card__size {
         width: 378px;
     }
@@ -46,16 +39,12 @@
         transition: 2.3s;
 
     }
-
     &-card__img:hover {
         transform: scale(110%);
         transition-delay: 0.3s;
         cursor: pointer;
         z-index: 1;
     }
-
-
-
     &-card__title {
         Font-size: 24px;
         font-weight: 500;
@@ -64,7 +53,6 @@
         text-align: left;
         padding-top: 10px;
     }
-
     &-card__description {
         color: rgb(136, 136, 136);
         font-size: 14px;
@@ -75,7 +63,6 @@
         padding-top: 9px;
         padding-bottom: 12px;
     }
-
     &-card__price {
         color: rgb(5, 5, 5);
         font-size: 24px;
@@ -85,23 +72,19 @@
         text-align: left;
         padding-bottom: 12px;
     }
-
     &-card__anime {
         position: relative;
 
     }
-
     &-card__ikon_right {
         display: none;
         padding-left: 11px;
 
     }
-
     &-card__ikon_left {
         display: none;
 
     }
-
     &__img__icons_position {
         position: absolute;
         display: flex;
@@ -112,22 +95,16 @@
         padding-right: 10px;
 
     }
-
     &-card__anime:hover .product-card__ikon_right {
         transform: scale(110%);
-
         display: inline;
         cursor: pointer;
         z-index: 1;
     }
-
     &-card__anime:hover .product-card__ikon_left {
         display: inline;
         cursor: pointer;
         transform: scale(110%);
         z-index: 1;
     }
-
-
-
 }

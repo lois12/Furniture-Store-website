@@ -3,13 +3,9 @@
     gap: 32px;
     grid-template-columns: repeat(12, 1fr);
     margin-top: 32px;
-
     &__box {
         padding-top: 64px;
     }
-
-
-
     &__title {
         color: rgb(0, 0, 0);
         font-size: 48px;
@@ -18,9 +14,6 @@
         letter-spacing: 0%;
         text-align: left;
     }
-
-
-
     &__item {
         height: 415px;
         grid-column: span 4;
@@ -30,11 +23,9 @@
 
 
     }
-
     &__item_big {
         grid-column: span 6;
     }
-
     &__item1 {
         background-image: url(IMG/IMG-for/for_it1.jpg);
         background-position: center;
@@ -42,35 +33,30 @@
         background-size: cover;
 
     }
-
     &__item2 {
         background-image: url(IMG/IMG-for/for_it2.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
     }
-
     &__item3 {
         background-image: url(IMG/IMG-for/for_it3.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
     }
-
     &__item4 {
         background-image: url(IMG/IMG-for/for_it4.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
     }
-
     &__item5 {
         background-image: url(IMG/IMG-for/for_it5.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
     }
-
     &__subtitle {
         color: $color-text1;
         font-size: 34px;

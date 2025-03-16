@@ -7,14 +7,12 @@
     background-color: #f7f6f6;
     padding-top: 32px;
     padding-bottom: 64px;
-
     &__navbar {
         display: flex;
         flex-direction: column;
         gap: 12px;
 
     }
-
     &__title {
         font-size: 24px;
         font-weight: 500;
@@ -22,8 +20,6 @@
         letter-spacing: 0%;
         text-align: left;
     }
-
-
     &__menu {
         display: flex;
         flex-direction: column;
@@ -35,9 +31,7 @@
         line-height: 17px;
         text-decoration: none;
     }
-
     &__link {
-
         color: rgb(136, 136, 136);
         font-family: Montserrat;
         font-size: 14px;
@@ -51,12 +45,10 @@
         flex-direction: column;
         gap: 12px;
     }
-
     &__ikons {
         display: flex;
         gap: 10px;
     }
-
     &__ikons-animation-dzen:hover{
         content: url(IMG/SVG/dzen\ black.svg);
         transform: scale(105%);
@@ -75,9 +67,6 @@
         transition-delay: 0.3s;
         cursor: pointer;
     }
-
-
-
     &__form {
         width: 260px;
         height: 40px;
@@ -118,10 +107,6 @@
         font-size: 12px;
     }
  }
-
-    
-
-
     &__action {
         color: rgb(0, 0, 0);
         font-family: Montserrat;
@@ -131,6 +116,4 @@
         letter-spacing: 0%;
         text-align: left;
     }
-
-
 }

@@ -6,7 +6,6 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .catalog__main-title {
     color: $color-text1;
     font-family: Montserrat;
@@ -17,7 +16,6 @@
     text-align: left;
     padding-top: 127px;
 }
-
 .catalog__title {
 
     padding-top: 64px;
@@ -28,13 +26,7 @@
     line-height: 59px;
     letter-spacing: 0%;
     text-align: left;
-
 }
-
-
-
-
-
 .catalog__bar_flex {
     display: flex;
     align-items: center;
@@ -42,11 +34,9 @@
     padding-top: 61px;
     padding-bottom: 36px;
 }
-
 .catalog {
     padding-bottom: 32px;
 }
-
 .catalog__nav {
     display: flex;
     flex-direction: row;
@@ -59,28 +49,23 @@
     line-height: 32px;
     letter-spacing: 0%;
 }
-
 .catalog__nav-link {
     color: $color-text2;
 }
-
 .catalog__nav-link:hover {
     text-decoration: underline;
 }
-
 .catalog__btn {
     display: flex;
     justify-content: right;
     column-gap: 10px;
     position: relative;
 }
-
 /*Всплывающий список в CATALOG*/
 .select-wrapper {
     position: relative;
 
 }
-
 .select-wrapper::after {
     content: url(IMG/SVG/Polygon1.svg);
     position: absolute;
@@ -89,10 +74,7 @@
     height: 11px;
     left: 155px;
     top: 10px;
-
-
 }
-
 .select-box1 {
     appearance: none;
     width: 182px;
@@ -106,7 +88,6 @@
     line-height: 20px;
     padding-left: 23px;
 }
-
 .select-box2 {
     appearance: none;
     width: 227px;
@@ -123,4 +104,3 @@
 
 
 
-/*Всплывающий список в CATALOG*/
